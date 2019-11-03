@@ -17,6 +17,7 @@ public class CorrectionListener implements Listener {
 		if (pos >= 2) {
 			String s = text.getSubstring(pos - 2, 3).toUpperCase();
 			if ("(C)".equals(s)) {
+				System.out.println(this.getClass());
 				System.out.println("correct on: " + text);
 				text.delete(pos - 2, 3);
 				text.insert(pos - 2, '©');

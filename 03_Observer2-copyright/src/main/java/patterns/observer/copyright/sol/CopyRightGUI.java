@@ -17,6 +17,7 @@ class CopyRightGUI extends JFrame {
 		String given = (args.length > 0) ? args[0] : fhnw;
 		String typeThat = (args.length > 1) ? args[1] : input;
 		JFrame f = new CopyRightGUI(given, typeThat);
+		System.out.println(given + " ----------- " + typeThat);
 		f.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		f.pack();
 		f.setVisible(true);
@@ -29,7 +30,7 @@ class CopyRightGUI extends JFrame {
 		m1.addListener(cl1);
 		m1.addListener(tl1);
 		
-		final TextModel m2 = new TextModelCorrect1();
+		final TextModel m2 = new TextModelCorrect3();
 		CorrectionListener cl2 = new CorrectionListener(m2);
 		TextListener tl2 = new TextListener();
 		m2.addListener(cl2);

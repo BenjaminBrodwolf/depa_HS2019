@@ -20,8 +20,8 @@ import jdraw.framework.*;
  */
 public class StdDrawModel implements DrawModel, FigureListener {
 
-    List<Figure> figures = new ArrayList<>();
-    List<DrawModelListener> drawModelListeners = new ArrayList<>();
+    List<Figure> figures = new ArrayList<>(); // alle Figuren in einem DrawModel
+    List<DrawModelListener> drawModelListeners = new ArrayList<>(); // DrawMode = ZeichnigsFenster (Listener/Observer)
 
     @Override
     public void addFigure(Figure f) {
@@ -57,7 +57,7 @@ public class StdDrawModel implements DrawModel, FigureListener {
 
     @Override
     public void addModelChangeListener(DrawModelListener listener) {
-        System.out.println("StdDrawModel.addModelChangeListener");
+        System.out.println("StdDrawModel.addModelChangeListener - " + listener);
         this.drawModelListeners.add(listener);
     }
 

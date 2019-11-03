@@ -20,8 +20,7 @@ public class TextModelCorrect3 implements TextModel {
 
 	@Override
 	public void insert(final int pos, final char ch) {
-		if (pos < 0 || pos > text.length())
-			throw new IllegalArgumentException();
+		if (pos < 0 || pos > text.length()) throw new IllegalArgumentException();
 		text.insert(pos, ch);
 		for (Listener l : listeners) {
 			SwingUtilities.invokeLater(() -> l.notifyInsert(pos, ch));

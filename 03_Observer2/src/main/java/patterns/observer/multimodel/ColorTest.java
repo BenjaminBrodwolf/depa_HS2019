@@ -12,8 +12,12 @@ public class ColorTest {
 
 		EnumSet<ColorChannel> all = EnumSet.allOf(ColorChannel.class);
 
+		System.out.println(	all);
+
+
 		model.addColorListener(c -> {
 			if (Color.RED.equals(c)) {
+				System.out.println("1. Listener RED");
 				model.setColor(Color.GRAY);
 			}
 		}, all);

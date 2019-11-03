@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.fhnw.depa.collections.TestSimpleCollection2" tests="19" skipped="0" failures="0" errors="0" timestamp="2019-11-03T11:38:26" hostname="Beni-Desktop" time="0.019">
+  <properties/>
+  <testcase name="testToArrayTArrayEmpty" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.004"/>
+  <testcase name="testToArray" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.001"/>
+  <testcase name="testAdd" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.0"/>
+  <testcase name="testIteratorRemove" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.0"/>
+  <testcase name="testClear" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.0"/>
+  <testcase name="testSize" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.0"/>
+  <testcase name="testRetainAll" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.0"/>
+  <testcase name="testContainsAll" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.001"/>
+  <testcase name="testToArrayTArrayNull" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.0"/>
+  <testcase name="testContains" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.0"/>
+  <testcase name="testAddAllException" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.0"/>
+  <testcase name="testToArrayTArrayWrongType" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.001"/>
+  <testcase name="testIteratorConcurrency" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.001"/>
+  <testcase name="testAddAll" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.0"/>
+  <testcase name="testIsEmpty" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.0"/>
+  <testcase name="testRemove" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.002"/>
+  <testcase name="testToArrayTArray" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.0"/>
+  <testcase name="testIterator" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.001"/>
+  <testcase name="testRemoveAll" classname="ch.fhnw.depa.collections.TestSimpleCollection2" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

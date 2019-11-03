@@ -31,6 +31,8 @@ public class ColorModel {
 	}
 
 	public void setColor(Color c) {
+
+
 		setRed(c.getRed());
 		setGreen(c.getGreen());
 		setBlue(c.getBlue());

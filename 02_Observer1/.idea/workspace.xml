@@ -1,20 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f2e5413-ec31-4e4e-90d5-46ac17b91667" name="Default Changelist" comment="" />
+    <list default="true" id="9f2e5413-ec31-4e4e-90d5-46ac17b91667" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myObserver1/IObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myObserver1/IObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myObserver1/Newsletter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myObserver1/NewsletterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myObserver1/Subscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myObserver2/AbstractObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myObserver2/ConsoleMessageObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myObserver2/IObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myObserver2/IObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myObserver2/Newsletter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myObserver2/NewsletterMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/myObserver2/Subscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_Observer2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_State/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdraw-assignment/.idea/jdraw-assignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdraw-assignment/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_Observer2-copyright/src/main/java/patterns/observer/copyright/sol/CopyRightGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_Observer2-copyright/src/main/java/patterns/observer/copyright/sol/CopyRightGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_Observer2-copyright/src/main/java/patterns/observer/copyright/sol/CorrectionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_Observer2-copyright/src/main/java/patterns/observer/copyright/sol/CorrectionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_Observer2-copyright/src/main/java/patterns/observer/copyright/sol/TextModelCorrect3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_Observer2-copyright/src/main/java/patterns/observer/copyright/sol/TextModelCorrect3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_Observer2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_Observer2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_Observer2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_Observer2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_Observer2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03_Observer2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_Observer2/src/main/java/patterns/observer/cycle/ColorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_Observer2/src/main/java/patterns/observer/cycle/ColorModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_Observer2/src/main/java/patterns/observer/list/AdderObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_Observer2/src/main/java/patterns/observer/list/AdderObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_Observer2/src/main/java/patterns/observer/multimodel/ColorModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_Observer2/src/main/java/patterns/observer/multimodel/ColorModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_Observer2/src/main/java/patterns/observer/multimodel/ColorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_Observer2/src/main/java/patterns/observer/multimodel/ColorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_Observer2/src/main/java/patterns/observer/once/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03_Observer2/src/main/java/patterns/observer/once/Observable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_State/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04_State/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_State/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04_State/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_State/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04_State/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_State/out/production/classes/patterns/state/parser/FloatConverter1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_State/out/production/classes/patterns/state/parser/FloatConverter1$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_State/out/production/classes/patterns/state/parser/FloatConverter1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_State/out/production/classes/patterns/state/tickets/TicketMachine2$AbstractState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_State/out/production/classes/patterns/state/tickets/TicketMachine2$State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_State/out/production/classes/patterns/state/tickets/TicketMachine2$StateDestSelected.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_State/out/production/classes/patterns/state/tickets/TicketMachine2$StateInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_State/out/production/classes/patterns/state/tickets/TicketMachine2$StateMoneyEntered.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_State/out/production/classes/patterns/state/tickets/TicketMachine2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_State/out/production/classes/patterns/state/tickets/TicketMachineGUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdraw-assignment/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jdraw-assignment/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdraw-assignment/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jdraw-assignment/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdraw-assignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jdraw-assignment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdraw-assignment/src/main/java/jdraw/std/StdDrawModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdraw-assignment/src/main/java/jdraw/std/StdDrawModel.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+  <component name="CoverageViewManager">
+    <option name="myAutoScrollToSource" value="true" />
+    <option name="myElementSize" value="241" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -23,17 +111,29 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1RHsQUHeULl58ycKalJp7AQL6HF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/sdk-tools-windows-4333796" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jdraw-assignment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../03_Observer2/build.gradle" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projekt\depa_HS2019\02_Observer1\src\main\java\myObserver2" />
+      <recent name="D:\Projekt\depa_HS2019\02_Observer1\src\main\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,7 +147,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SensorMain">
+  <component name="RunManager" selected="Application.NewsletterMain (1)">
+    <configuration name="NewsletterMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myObserver2.NewsletterMain" />
+      <module name="02_Observer1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myObserver2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewsletterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myObserver1.NewsletterMain" />
+      <module name="02_Observer1.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myObserver1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SensorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.observer.sensor.SensorMain" />
       <module name="02_Observer1.main" />
@@ -74,19 +200,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.observer.javafx.Test1a" />
-      <module name="02_Observer1.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="patterns.observer.javafx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.observer.javafx.Test2" />
       <module name="02_Observer1.main" />
@@ -100,26 +213,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.observer.javafx.Test2a" />
-      <module name="02_Observer1.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="patterns.observer.javafx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewsletterMain (1)" />
+        <item itemvalue="Application.NewsletterMain" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.SensorMain" />
         <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test1a" />
-        <item itemvalue="Application.Test2a" />
-        <item itemvalue="Application.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -134,10 +234,31 @@
       <option name="presentableId" value="Default" />
       <updated>1569335340288</updated>
       <workItem from="1569335346213" duration="1732000" />
+      <workItem from="1572781154468" duration="45000" />
+      <workItem from="1572781215532" duration="328000" />
+      <workItem from="1572783455076" duration="11782000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/02_Observer1$SensorMain.ic" NAME="SensorMain Coverage Results" MODIFIED="1572783704574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>patterns.observer.sensor.*</FILTER>
+    </SUITE>
   </component>
 </project>

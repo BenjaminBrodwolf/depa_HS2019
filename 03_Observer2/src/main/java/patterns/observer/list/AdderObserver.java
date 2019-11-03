@@ -10,6 +10,7 @@ public class AdderObserver implements Observer {
 		int sum = 0;
 		for (int n : list.toArray(new Integer[list.size()])) {
 			sum += n;
+			System.out.println(sum + " -- " + n);
 		}
 
 		System.out.println("AdderObserver: new sum is " + sum);
