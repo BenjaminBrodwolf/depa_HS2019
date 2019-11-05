@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d92977db-0f80-4f2f-9e29-6ed8b43df4fe" name="Default Changelist" comment="" />
+    <list default="true" id="d92977db-0f80-4f2f-9e29-6ed8b43df4fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +45,9 @@
       </state>
     </system>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -50,6 +55,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1SsVq5aC6yAUARvgnhdUlukiLVw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -160,10 +166,22 @@
       <updated>1572352477312</updated>
       <workItem from="1572352481566" duration="1037000" />
       <workItem from="1572353570996" duration="2954000" />
+      <workItem from="1572952828473" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
